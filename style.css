@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    ;
+}
+
+.nav-link{
+    color: black;
+    font-weight: 600;
+    font-size: medium;
+
+}
+
+.navbar-brand{
+    color: black;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.parallex{
+    /* background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F435793701432126830%2F&psig=AOvVaw0Og3_qj4oe2bQry9A4eVhM&ust=1630482535102000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjusO_02vICFQAAAAAdAAAAABAD) no-repeat) ; */
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.matsuhisarestaurants.com/wp-content/uploads/2019/01/blur-bokeh-close-up-1148086.jpg) no-repeat 50% 50% / cover;
+}
+
+.parallex h1{
+    font-size: 60px;
+    font-weight: 700;
+
+
+}
+
+.parallex p{
+    font-size: 25px;
+
+}
+
+.btn2{
+    height: 40px;
+    width: 110px;
+    background-color: tomato;
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    white-space: nowrap;
+
+}
+
+.btn2:hover{
+    background-color: white;
+    color: yellowgreen;
+    transition: 0.3s;
+    white-space: nowrap;
+
+
+}
+
+
+
+.btn3{
+    height: 40px;
+    width: 180px;
+    background-color: white;
+    border: 2px solid yellow;
+    color: yellowgreen;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    white-space: nowrap;
+
+
+}
+
+.btn3:hover{
+    background-color: gray;
+    color: white;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    white-space: nowrap;
+
+}
+
+
+
+
+
+.txt-area{
+    position: relative;
+}
+
+.padding-md { padding: 1em; }
+
+.carousel.caption{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-80%);
+    left: -8%;
+    
+}
+
+.carousel.caption h1{
+    font-size: 70px;
+    font-weight: 400;
+    color: black;
+}
+
+.carousel.caption p{
+    color: black;
+    font-weight: 600;
+
+}
+
+.btn0{
+    height: 45px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+}
+.btn0:hover{
+    background-color: white;
+    color: red;
+    transition: 0.3s;
+
+}
+
+.jumbotron{
+    background-blend-mode: lighten;
+}
+
+.aligncenter h2{
+    font-family: 'ClaybornRegular';
+   font-weight: bold;
+   font-style: normal;
+}
+
+.carousel-inner img {
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+}
